@@ -1,0 +1,6 @@
+- name: Example Playbook with Host Variables
+  hosts: web
+  tasks:
+    - name: Display ansible_python_interpreter for each server
+      debug:
+        msg: "Hello World"
